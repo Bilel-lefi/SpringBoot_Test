@@ -1,13 +1,9 @@
 package com.example.test.commande;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
-
 @Service
 public class CommandeService {
-
     @Autowired
     private CommandeRepositroy repo;  // Un seul repository
 
